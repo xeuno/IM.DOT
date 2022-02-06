@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".textmemo">
+
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="-2dp"
+        android:background="#AFEEEE">
+
+        <EditText
+            android:id="@+id/contents_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="메모할 내용을 입력하세요"
+            android:lines="16"
+            android:textSize="15sp"
+            android:gravity="top|left" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="2dp"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/btn_motor"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="2dp"
+        android:text="출력" />
+
+    <ListView
+        android:id="@+id/memo_list"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="277dp" />
+
+</RelativeLayout>

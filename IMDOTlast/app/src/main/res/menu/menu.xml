@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/ip"
+        android:title="ip"
+        android:icon="@drawable/ip"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/sound"
+        android:title="sound"
+        android:icon="@drawable/sound"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/text_input"
+        android:title="pen"
+        android:icon="@drawable/pen"
+        app:showAsAction="always"/>
+
+</menu>
